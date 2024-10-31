@@ -6,7 +6,7 @@ const dist = path.join(__dirname, 'dist');
 const src = path.join(__dirname, 'src');
 const host = 'localhost';
 
-module.exports = (_, args) => {
+module.exports = () => {
   return {
     entry: './index.tsx',
     devtool: 'source-map',
